@@ -6,7 +6,7 @@
         <div class="container mx-auto px-0 md:px-15 flex justify-between w-full">
           <div class="flex items-center space-x-2">
             <!-- Mail icon and email as link -->
-            <a href="mailto:info@ggbservicios.com" class="hover:underline" aria-label="Enviar correo a info@ggbservicios.com">info@ggbservicios.com</a>
+            <a href="mailto:info@ggbservicios.com" class="hover:underline" aria-label="Enviar correo a info@ggbservicios.com">info[a]]ggbservicios.com</a>
           </div>
           <div class="flex space-x-4" aria-label="Redes sociales">
             <!-- Social media icons -->
