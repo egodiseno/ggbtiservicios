@@ -36,11 +36,54 @@
         }
       }
       </script>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Obtener parámetros de la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const mensaje = urlParams.get('mensaje');
+            
+            // Mostrar mensaje dependiendo del parámetro
+            if (mensaje === 'exito') {
+                alert('Mensaje enviado con éxito.');
+            } else if (mensaje === 'error') {
+                alert('Error al enviar el mensaje. Inténtalo de nuevo.');
+            } else if (mensaje === 'datos_invalidos') {
+                alert('Por favor, completa los campos obligatorios correctamente.');
+            } else if (mensaje === 'metodo_no_valido') {
+                alert('Método de solicitud no válido.');
+            }
+        });
+    </script>
 
-    <script type="module" crossorigin src="./assets/main-CvQcF1Ha.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/main-CXUsRvp8.css">
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      // Obtener parámetros de la URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const mensaje = urlParams.get('mensaje');
+      
+      // Mostrar mensaje dependiendo del parámetro
+      if (mensaje === 'exito') {
+          alert('¡Gracias por suscribirte!');
+      } else if (mensaje === 'error_envio') {
+          alert('Hubo un problema al enviar el correo. Inténtalo de nuevo más tarde.');
+      } else if (mensaje === 'campos_obligatorios') {
+          alert('Todos los campos son obligatorios.');
+      } else if (mensaje === 'correo_invalido') {
+          alert('Formato de correo electrónico no válido.');
+      } else if (mensaje === 'csrf_error') {
+          alert('Token CSRF inválido.');
+      } else if (mensaje === 'metodo_no_permitido') {
+          alert('Método de solicitud no permitido.');
+      }
+  });
+</script>
+
+    <script type="module" crossorigin src="./assets/main-b_989icd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-DssMg1TX.css">
   </head>
   <body>
     <div id="app"></div>
+    
+
   </body>
 </html>
