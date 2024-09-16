@@ -22,7 +22,7 @@
       </a>
       <!-- MercadoShops -->
       <a href="https://ggbservicios.mercadoshops.com.mx/" target="_blank" aria-label="Visitar nuestra tienda en MercadoShops" rel="noopener noreferrer">
-        <img loading="lazy" src="/images/mercadoshops.svg" alt="Logo de MercadoShops" class="w-[26px] h-[26px] svg-black" />
+        <img loading="lazy" src="./images/mercadoshops.svg" alt="Logo de MercadoShops" class="w-[26px] h-[26px] svg-black" />
       </a>
     </div>
   </div>
@@ -36,7 +36,7 @@
 
     <!-- Logo aligned to the left and vertically centered -->
     <a class="flex title-font font-medium items-center text-stone-900" href="/" aria-label="Ir a la página principal">
-      <img loading="lazy" class="w-6/12 object-cover object-center" alt="Logo de GGB Servicios" src="/images/ggblogo-h.svg" aria-hidden="true">
+      <img loading="lazy" class="w-6/12 object-cover object-center" alt="Logo de GGB Servicios" src="./images/ggblogo-h.svg" aria-hidden="true">
     </a>
 
     <!-- Botón de menú hamburguesa alineado a la derecha y centrado verticalmente (visible solo en xs, sm, md) -->
@@ -86,7 +86,7 @@
     <!-- Imagen con descripción accesible -->
     <img loading="lazy" class="lg:w-1/4 md:w-3/6 w-5/6 mb-10 object-cover object-center" 
          alt="Logotipo de GGB Servicios" 
-         src="/images/ggblogo.svg">
+         src="./images/ggblogo.svg">
     
     <!-- Contenedor de texto central -->
     <div class="text-center lg:w-2/3 w-full">
@@ -137,7 +137,7 @@
       
       <!-- Imagen -->
       <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-        <img loading="lazy" src="/images/soporte-tecnico.webp" 
+        <img loading="lazy" src="./images/soporte-tecnico.webp" 
              alt="Técnico trabajando en soporte técnico en un ordenador" 
              class="w-full h-auto object-cover rounded-lg">
       </div>
@@ -180,7 +180,7 @@
     <div id="servicio02" class="flex flex-col lg:flex-row-reverse items-center justify-center w-full lg:w-auto py-10" role="region" aria-labelledby="servicio02-heading">
       <!-- Imagen -->
       <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-        <img loading="lazy" src="/images/seguridad.webp" 
+        <img loading="lazy" src="./images/seguridad.webp" 
              alt="Sistema de videovigilancia en acción" 
              class="w-full h-auto object-cover rounded-lg">
       </div>
@@ -221,7 +221,7 @@
 <div id="servicio03" class="flex flex-col lg:flex-row items-center justify-center w-full lg:w-auto py-10">
   <!-- Imagen -->
   <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-    <img loading="lazy" src="/images/soluciones-web.webp" alt="Presentación de Soluciones Web de GGB TI+" class="w-full h-auto object-cover rounded-lg">
+    <img loading="lazy" src="./images/soluciones-web.webp" alt="Presentación de Soluciones Web de GGB TI+" class="w-full h-auto object-cover rounded-lg">
   </div>
 
   <!-- Contenedor de texto -->
@@ -291,7 +291,7 @@
   <div class="container mx-auto px-4 flex flex-col lg:flex-row lg:items-center lg:justify-between min-h-screen">
     <!-- Imagen -->
     <div class="w-full lg:w-1/2 px-1 lg:px-6 flex justify-center lg:justify-end mb-8 lg:mb-0 lg:order-1 lg:flex lg:items-center">
-      <img loading="lazy" src="/images/nosotrosSm.webp" alt="Imagen de nuestro equipo en soporte técnico" class="w-full h-auto object-cover rounded-lg" aria-labelledby="imagen-description">
+      <img loading="lazy" src="./images/nosotrosSm.webp" alt="Imagen de nuestro equipo en soporte técnico" class="w-full h-auto object-cover rounded-lg" aria-labelledby="imagen-description">
       <p id="imagen-description" class="sr-only">Imagen que muestra al equipo de soporte técnico trabajando en el campo.</p>
     </div>
     <!-- Texto y contenido -->
@@ -333,7 +333,7 @@
     </div>
     <!-- Imagen -->
     <div class="w-full lg:w-5/12 px-1 lg:px-6 flex justify-center lg:order-2 lg:flex lg:items-center lg:justify-center">
-      <img loading="lazy" src="/images/redesSm.webp" alt="Imagen de una red de infraestructura tecnológica" class="w-full h-auto object-cover rounded-lg" aria-labelledby="imagen-description">
+      <img loading="lazy" src="./images/redesSm.webp" alt="Imagen de una red de infraestructura tecnológica" class="w-full h-auto object-cover rounded-lg" aria-labelledby="imagen-description">
       <p id="imagen-description" class="sr-only">Imagen que muestra una red de infraestructura tecnológica, resaltando la confiabilidad y robustez de la red empresarial.</p>
     </div>
   </div>
@@ -356,7 +356,7 @@
       <!-- Fila o Columna 1 -->
       <div class="flex flex-col items-center lg:items-start text-center lg:text-left justify-start min-h-[300px]">
         <h6 class="text-stone-200 font-bold mb-2 text-lg" tabindex="0">Controles de acceso para tu hogar y oficina.<br>&nbsp;</h6>
-        <img loading="lazy" src="/images/seg01.webp" alt="Control de Acceso en diferentes tipos de puertas" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc1">
+        <img loading="lazy" src="./images/seg01.webp" alt="Control de Acceso en diferentes tipos de puertas" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc1">
         <p id="desc1" class="sr-only">Control de acceso adaptado a diferentes puertas o portones, incluyendo vidrio, madera, aluminio, y rejas, asegurando un control preciso y seguro.</p>
         <p class="text-stone-200 text-left text-base pb-4" tabindex="0">Control de acceso adaptado a diferentes puertas o portones. Instalamos sistemas en puertas de vidrio, madera, aluminio, rejas, y más, asegurando un control preciso y seguro.</p>
       </div>
@@ -364,7 +364,7 @@
       <!-- Fila o Columna 2 -->
       <div class="flex flex-col items-center lg:items-start text-center lg:text-left justify-start min-h-[300px]">
         <h6 class="text-stone-200 font-bold mb-2 text-lg" tabindex="0">Control de acceso compatible con todo tipo de puertas y portones.</h6>
-        <img loading="lazy" src="/images/seg02.webp" alt="Variedad de mecanismos de cierre" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc2">
+        <img loading="lazy" src="./images/seg02.webp" alt="Variedad de mecanismos de cierre" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc2">
         <p id="desc2" class="sr-only">Variedad de mecanismos de cierre, desde chapas eléctricas y magnéticas hasta sistemas con pivotes, adaptados a sus necesidades.</p>
         <p class="text-stone-200 text-left text-base pb-4" tabindex="0">Variedad de mecanismos de cierre. Desde chapas eléctricas y magnéticas hasta sistemas con pivotes, ofrecemos soluciones que se ajustan a sus necesidades.</p>
       </div>
@@ -372,7 +372,7 @@
       <!-- Fila o Columna 3 -->
       <div class="flex flex-col items-center lg:items-start text-center lg:text-left justify-start min-h-[300px]">
         <h6 class="text-stone-200 font-bold mb-2 text-lg" tabindex="0">Control de acceso adaptable a distintos mecanismos de cierre.</h6>
-        <img loading="lazy" src="/images/seg03.webp" alt="Métodos de identificación en control de acceso" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc3">
+        <img loading="lazy" src="./images/seg03.webp" alt="Métodos de identificación en control de acceso" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc3">
         <p id="desc3" class="sr-only">Diversos métodos de identificación, incluyendo tarjetas HID, códigos de barras, equipos biométricos, teclados, RFID, y otros métodos.</p>
         <p class="text-stone-200 text-left text-base pb-4" tabindex="0">Diversos métodos de identificación. Nuestros sistemas de control de acceso pueden operar con tarjetas HID, códigos de barras, equipos biométricos, teclados, RFID, y otros métodos, adaptándose a la tecnología que prefiera.</p>
       </div>
@@ -380,7 +380,7 @@
       <!-- Fila o Columna 4 -->
       <div class="flex flex-col items-center lg:items-start text-center lg:text-left justify-start min-h-[300px]">
         <h6 class="text-stone-200 font-bold mb-2 text-lg" tabindex="0">Control de acceso con varios tipos de identificación.</h6>
-        <img loading="lazy" src="/images/seg04.webp" alt="Opciones de control de acceso con tarjeta o huella digital" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc4">
+        <img loading="lazy" src="./images/seg04.webp" alt="Opciones de control de acceso con tarjeta o huella digital" class="w-1/2 h-auto object-cover rounded-lg mb-4 mx-auto" aria-describedby="desc4">
         <p id="desc4" class="sr-only">Opciones de control de acceso que incluyen tarjetas, biometría, o teclados, asegurando que solo quienes usted autorice tengan acceso.</p>
         <p class="text-stone-200 text-left text-base" tabindex="0">¿Quiere abrir puertas con una tarjeta o su huella digital? En <b>GGB Servicios TI+</b> tenemos la tecnología para hacer que su control de acceso sea cómodo y seguro, ya sea con tarjetas, biometría, o teclados, asegurando que solo quienes usted autorice tengan acceso.</p>
       </div>
@@ -597,7 +597,7 @@
             </svg>
           </a>
           <a href="https://ggbservicios.mercadoshops.com.mx/" target="_blank" aria-label="MercadoShops" class="transition duration-300 ease-in-out">
-            <img loading="lazy" src="/images/mercadoshops.svg" alt="MercadoShops" class="w-[35px] h-[35px] svg-green" />
+            <img loading="lazy" src="./images/mercadoshops.svg" alt="MercadoShops" class="w-[35px] h-[35px] svg-green" />
           </a>
         </div>
       </div>
@@ -620,7 +620,7 @@
         </svg>
         </a>
         <a href="https://ggbservicios.mercadoshops.com.mx/" target="_blank" aria-label="MercadoShops">
-          <img loading="lazy" src="/images/mercadoshops.svg" alt="MercadoShops" class="w-[35px] h-[35px] svg-green" />
+          <img loading="lazy" src="./images/mercadoshops.svg" alt="MercadoShops" class="w-[35px] h-[35px] svg-green" />
         </a>
       </div>
     </div>
@@ -729,3 +729,4 @@
       allowfullscreen="" 
       loading="lazy">
     </iframe>`}document.addEventListener("DOMContentLoaded",function(){const t=document.getElementById("map-container");t?(t.innerHTML=C(),console.log("Iframe inserted successfully in desktop view")):console.log("Map container not found in desktop view");const o=document.getElementById("map-container-mobile");o?(o.innerHTML=C(),console.log("Iframe inserted successfully in mobile view")):console.log("Map container mobile not found")});document.addEventListener("DOMContentLoaded",()=>{var g,h;const t=document.getElementById("modal-privacidad"),o=document.getElementById("modal-terminos"),n=document.getElementById("open-privacidad-mobile"),l=document.getElementById("open-terminos-mobile"),e=document.getElementById("open-privacidad-desktop"),s=document.getElementById("open-terminos-desktop");async function r(a,i){try{const c=await fetch(i);if(!c.ok)throw new Error("Error de red");const E=await c.text();a.querySelector(".modal-body").innerHTML=E}catch(c){console.error("Error al cargar el contenido del modal:",c),a.querySelector(".modal-body").innerHTML="<p>Error al cargar el contenido.</p>"}}function b(a,i){r(a,i),a.classList.remove("hidden"),document.body.style.overflow="hidden"}function p(a){const i=a.currentTarget.getAttribute("data-close");document.getElementById(i).classList.add("hidden"),document.body.style.overflow=""}n==null||n.addEventListener("click",a=>{a.preventDefault(),b(t,"aviso-privacidad.html")}),l==null||l.addEventListener("click",a=>{a.preventDefault(),b(o,"terminos-condiciones.html")}),e==null||e.addEventListener("click",a=>{a.preventDefault(),b(t,"aviso-privacidad.html")}),s==null||s.addEventListener("click",a=>{a.preventDefault(),b(o,"terminos-condiciones.html")}),(g=document.querySelector('button[data-close="modal-privacidad"]'))==null||g.addEventListener("click",p),(h=document.querySelector('button[data-close="modal-terminos"]'))==null||h.addEventListener("click",p),document.querySelectorAll(".modal").forEach(a=>{a.addEventListener("click",i=>{i.target===a&&p(i)})})});
+//# sourceMappingURL=main-CVk3y5Tr.js.map
