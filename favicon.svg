@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="design" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
 <style type="text/css">
@@ -7,19 +7,14 @@
 	.st1{fill:#839F37;}
 	.st2{fill:#526421;}
 </style>
-<g id="drop_shadow">
-	
-		<image style="overflow:visible;opacity:0.2;enable-background:new    ;" width="1988" height="1775" xlink:href="img_base/9F87695F.png"  transform="matrix(0.2393 0 0 0.2393 1.2043 56.4468)">
-	</image>
-</g>
 <g id="outer_prism">
-	<polygon class="st0" points="239,16.8 239,133.8 356,328.8 447,380.8 	"/>
-	<polygon class="st1" points="239,16.8 239,133.8 122,328.8 31,380.8 	"/>
-	<polygon class="st2" points="122,328.8 356,328.8 447,380.8 31,380.8 	"/>
+	<polygon class="st0" points="240,30.7 240,165.3 375,389.5 480,449.3 	"/>
+	<polygon class="st1" points="240,30.7 240,165.3 105,389.5 0,449.3 	"/>
+	<polygon class="st2" points="105,389.5 375,389.5 480,449.3 0,449.3 	"/>
 </g>
 <g id="inner_prism">
-	<polygon class="st1" points="239,179.3 167.5,302.8 239,263.8 	"/>
-	<polygon class="st0" points="239,179.3 310.5,302.8 239,263.8 	"/>
-	<polygon class="st2" points="239,263.8 167.5,302.8 310.5,302.8 	"/>
+	<polygon class="st1" points="240,217.6 157.5,359.6 240,314.7 	"/>
+	<polygon class="st0" points="240,217.6 322.5,359.6 240,314.7 	"/>
+	<polygon class="st2" points="240,314.7 157.5,359.6 322.5,359.6 	"/>
 </g>
 </svg>
