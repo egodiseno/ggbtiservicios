@@ -36,6 +36,7 @@
 
     <!-- Logo aligned to the left and vertically centered -->
     <a class="flex title-font font-medium items-center text-stone-900" href="/" aria-label="Ir a la página principal">
+    
       <img loading="lazy" class="w-6/12 object-cover object-center" alt="Logo de GGB Servicios" src="./images/ggblogo-h.svg" aria-hidden="true">
     </a>
 
@@ -84,10 +85,9 @@
   <div class="container mx-auto flex px-5 py-0 items-center justify-center flex-col">
     
     <!-- Imagen con descripción accesible -->
-    <img class="lg:w-1/4 md:w-3/6 w-5/6 mb-10 object-cover object-center" 
-    rel="preload" alt="Logotipo de GGB Servicios" 
-         src="./images/ggblogo.svg">
-    
+    <!-- <img class="lg:w-1/4 md:w-3/6 w-5/6 mb-10 object-cover object-center" rel="preload" alt="Logotipo de GGB Servicios" src="./images/ggblogo.svg"> -->
+    <img class="lg:w-1/4 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="Logotipo de GGB Servicios" src="./images/ggblogo.svg" width="200" height="100">
+
     <!-- Contenedor de texto central -->
     <div class="text-center lg:w-2/3 w-full">
       
@@ -483,7 +483,7 @@
   </div>
 
   <!-- Formulario para desktop -->
-  <form action="enviar_mensaje.php" method="POST" class="hidden lg:flex lg:flex-col lg:w-2/3 w-full mx-auto px-8 pb-20">
+  <form action="/enviar_mensaje.php" method="POST" class="hidden lg:flex lg:flex-col lg:w-2/3 w-full mx-auto px-8 pb-20">
     <!-- Token CSRF -->
     <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
 
@@ -575,7 +575,7 @@
       <div class="flex flex-col">
         <p class="text-lg font-bold mb-2">Suscríbete a nuestro boletín</p>
         <p class="mb-4">Recibe: ofertas, nuevos productos y más. ¡SIN SPAM!</p>
-        <form action="enviar_boletin.php" method="POST" class="space-y-4">
+        <form action="/enviar_boletin.php" method="POST" class="space-y-4">
           <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
           
           <input type="text" name="nombre" placeholder="Nombre Completo" class="w-full p-4 bg-stone-800 text-stone-200 placeholder-stone-400 rounded" required>
@@ -731,4 +731,4 @@
       loading="lazy"
       title="Mapa de ubicación de GGB Servicios TI+">
     </iframe>`}document.addEventListener("DOMContentLoaded",function(){const t=document.getElementById("map-container");t?(t.innerHTML=C(),console.log("Iframe inserted successfully in desktop view")):console.log("Map container not found in desktop view");const o=document.getElementById("map-container-mobile");o?(o.innerHTML=C(),console.log("Iframe inserted successfully in mobile view")):console.log("Map container mobile not found")});document.addEventListener("DOMContentLoaded",()=>{var g,h;const t=document.getElementById("modal-privacidad"),o=document.getElementById("modal-terminos"),n=document.getElementById("open-privacidad-mobile"),l=document.getElementById("open-terminos-mobile"),e=document.getElementById("open-privacidad-desktop"),s=document.getElementById("open-terminos-desktop");async function r(a,i){try{const c=await fetch(i);if(!c.ok)throw new Error("Error de red");const E=await c.text();a.querySelector(".modal-body").innerHTML=E}catch(c){console.error("Error al cargar el contenido del modal:",c),a.querySelector(".modal-body").innerHTML="<p>Error al cargar el contenido.</p>"}}function b(a,i){r(a,i),a.classList.remove("hidden"),document.body.style.overflow="hidden"}function p(a){const i=a.currentTarget.getAttribute("data-close");document.getElementById(i).classList.add("hidden"),document.body.style.overflow=""}n==null||n.addEventListener("click",a=>{a.preventDefault(),b(t,"aviso-privacidad.html")}),l==null||l.addEventListener("click",a=>{a.preventDefault(),b(o,"terminos-condiciones.html")}),e==null||e.addEventListener("click",a=>{a.preventDefault(),b(t,"aviso-privacidad.html")}),s==null||s.addEventListener("click",a=>{a.preventDefault(),b(o,"terminos-condiciones.html")}),(g=document.querySelector('button[data-close="modal-privacidad"]'))==null||g.addEventListener("click",p),(h=document.querySelector('button[data-close="modal-terminos"]'))==null||h.addEventListener("click",p),document.querySelectorAll(".modal").forEach(a=>{a.addEventListener("click",i=>{i.target===a&&p(i)})})});
-//# sourceMappingURL=main-C0kI-tVa.js.map
+//# sourceMappingURL=main-Cv4RcuyU.js.map
